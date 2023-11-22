@@ -1,0 +1,161 @@
+﻿<Window x:Class="HibachiGuru.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HibachiGuru"
+        mc:Ignorable="d"
+        Title="HibachiGuru" Height="620" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20" />
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="20" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="20" />
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Column="1" Grid.Row="1" FontSize="18" Text="Hibachi Catering LA Sales Quote" Grid.ColumnSpan="2"/>
+        <TextBox Grid.Column="1" Grid.Row="2" FontSize="18" Text="Quantity"/>
+        <TextBox Grid.Column="2" Grid.Row="2" FontSize="18" Text="Description" />
+        <TextBox Grid.Column="3" Grid.Row="2" FontSize="18" Text="Price" />
+        <TextBox Grid.Column="4" Grid.Row="2" FontSize="18" Text="Total"/>
+
+        <TextBox x:Name="quantTextBlock01" Grid.Column="1" Grid.Row="3" />
+        <TextBox x:Name="quantTextBlock02" Grid.Column="1" Grid.Row="4" />
+        <TextBox x:Name="quantTextBlock03" Grid.Column="1" Grid.Row="5" />
+        <TextBox x:Name="quantTextBlock04" Grid.Column="1" Grid.Row="6" />
+        <TextBox x:Name="quantTextBlock05" Grid.Column="1" Grid.Row="7" />
+        <TextBox x:Name="quantTextBlock06" Grid.Column="1" Grid.Row="8" />
+        <TextBox x:Name="quantTextBlock07" Grid.Column="1" Grid.Row="9" />
+        <TextBox x:Name="quantTextBlock08" Grid.Column="1" Grid.Row="10" />
+        <TextBox x:Name="quantTextBlock09" Grid.Column="1" Grid.Row="11" />
+        <TextBox x:Name="quantTextBlock10" Grid.Column="1" Grid.Row="12" />
+        <TextBox x:Name="quantTextBlock11" Grid.Column="1" Grid.Row="13" />
+        <TextBox x:Name="quantTextBlock12" Grid.Column="1" Grid.Row="14" />
+        <TextBox x:Name="quantTextBlock13" Grid.Column="1" Grid.Row="15" />
+        <TextBox x:Name="quantTextBlock14" Grid.Column="1" Grid.Row="16" />
+        <TextBox x:Name="quantTextBlock15" Grid.Column="1" Grid.Row="17" />
+        <TextBox x:Name="quantTextBlock16" Grid.Column="1" Grid.Row="18" />
+        <TextBox x:Name="quantTextBlock17" Grid.Column="1" Grid.Row="19" />
+        <TextBox x:Name="quantTextBlock18" Grid.Column="1" Grid.Row="20" />
+        <TextBox x:Name="quantTextBlock19" Grid.Column="1" Grid.Row="21" />
+        <TextBox x:Name="quantTextBlock20" Grid.Column="1" Grid.Row="22" />
+        
+
+        <ComboBox x:Name="menuComboBox01" Grid.Column="2" Grid.Row="3" DisplayMemberPath="ItemName" Width="200" SelectionChanged="ComboBox_SelectionChanged"/>
+        <ComboBox x:Name="menuComboBox02" Grid.Column="2" Grid.Row="4" DisplayMemberPath="ItemName" Width="200" SelectionChanged="ComboBox_SelectionChanged"/>
+        <ComboBox x:Name="menuComboBox03" Grid.Column="2" Grid.Row="5" DisplayMemberPath="ItemName" Width="200" SelectionChanged="ComboBox_SelectionChanged"/>
+        <ComboBox x:Name="menuComboBox04" Grid.Column="2" Grid.Row="6" DisplayMemberPath="ItemName" Width="200" SelectionChanged="ComboBox_SelectionChanged"/>
+        <ComboBox x:Name="menuComboBox05" Grid.Column="2" Grid.Row="7" DisplayMemberPath="ItemName" Width="200" SelectionChanged="ComboBox_SelectionChanged"/>
+        <ComboBox x:Name="menuComboBox06" Grid.Column="2" Grid.Row="8" DisplayMemberPath="ItemName" Width="200" SelectionChanged="ComboBox_SelectionChanged"/>
+        <ComboBox x:Name="menuComboBox07" Grid.Column="2" Grid.Row="9" DisplayMemberPath="ItemName" Width="200" SelectionChanged="ComboBox_SelectionChanged"/>
+        <ComboBox x:Name="menuComboBox08" Grid.Column="2" Grid.Row="10" DisplayMemberPath="ItemName" Width="200" SelectionChanged="ComboBox_SelectionChanged"/>
+        <ComboBox x:Name="menuComboBox09" Grid.Column="2" Grid.Row="11" DisplayMemberPath="ItemName" Width="200" SelectionChanged="ComboBox_SelectionChanged"/>
+        <ComboBox x:Name="menuComboBox10" Grid.Column="2" Grid.Row="12" DisplayMemberPath="ItemName" Width="200" SelectionChanged="ComboBox_SelectionChanged"/>
+        <ComboBox x:Name="menuComboBox11" Grid.Column="2" Grid.Row="13" DisplayMemberPath="ItemName" Width="200" SelectionChanged="ComboBox_SelectionChanged"/>
+        <ComboBox x:Name="menuComboBox12" Grid.Column="2" Grid.Row="14" DisplayMemberPath="ItemName" Width="200" SelectionChanged="ComboBox_SelectionChanged"/>
+        <ComboBox x:Name="menuComboBox13" Grid.Column="2" Grid.Row="15" DisplayMemberPath="ItemName" Width="200" SelectionChanged="ComboBox_SelectionChanged"/>
+        <ComboBox x:Name="menuComboBox14" Grid.Column="2" Grid.Row="16" DisplayMemberPath="ItemName" Width="200" SelectionChanged="ComboBox_SelectionChanged"/>
+        <ComboBox x:Name="menuComboBox15" Grid.Column="2" Grid.Row="17" DisplayMemberPath="ItemName" Width="200" SelectionChanged="ComboBox_SelectionChanged"/>
+        <ComboBox x:Name="menuComboBox16" Grid.Column="2" Grid.Row="18" DisplayMemberPath="ItemName" Width="200" SelectionChanged="ComboBox_SelectionChanged"/>
+        <ComboBox x:Name="menuComboBox17" Grid.Column="2" Grid.Row="19" DisplayMemberPath="ItemName" Width="200" SelectionChanged="ComboBox_SelectionChanged"/>
+        <ComboBox x:Name="menuComboBox18" Grid.Column="2" Grid.Row="20" DisplayMemberPath="ItemName" Width="200" SelectionChanged="ComboBox_SelectionChanged"/>
+        <ComboBox x:Name="menuComboBox19" Grid.Column="2" Grid.Row="21" DisplayMemberPath="ItemName" Width="200" SelectionChanged="ComboBox_SelectionChanged"/>
+        <ComboBox x:Name="menuComboBox20" Grid.Column="2" Grid.Row="22" DisplayMemberPath="ItemName" Width="200" SelectionChanged="ComboBox_SelectionChanged"/>
+        
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="1" Grid.Row="3"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="1" Grid.Row="4"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="1" Grid.Row="5"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="1" Grid.Row="6"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="1" Grid.Row="7"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="1" Grid.Row="8"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="1" Grid.Row="9"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="1" Grid.Row="10"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="1" Grid.Row="11"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="1" Grid.Row="12"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="1" Grid.Row="13"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="1" Grid.Row="14"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="1" Grid.Row="15"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="1" Grid.Row="16"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="1" Grid.Row="17"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="1" Grid.Row="18"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="1" Grid.Row="19"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="1" Grid.Row="20"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="1" Grid.Row="21"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="1" Grid.Row="22"/>
+        
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="3" Grid.Row="3"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="3" Grid.Row="4"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="3" Grid.Row="5"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="3" Grid.Row="6"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="3" Grid.Row="7"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="3" Grid.Row="8"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="3" Grid.Row="9"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="3" Grid.Row="10"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="3" Grid.Row="11"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="3" Grid.Row="12"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="3" Grid.Row="13"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="3" Grid.Row="14"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="3" Grid.Row="15"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="3" Grid.Row="16"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="3" Grid.Row="17"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="3" Grid.Row="18"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="3" Grid.Row="19"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="3" Grid.Row="20"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="3" Grid.Row="21"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="3" Grid.Row="22"/>
+
+        <TextBlock x:Name="priceTextBlock01" Grid.Column="3" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock x:Name="priceTextBlock02" Grid.Column="3" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock x:Name="priceTextBlock03" Grid.Column="3" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock x:Name="priceTextBlock04" Grid.Column="3" Grid.Row="6" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock x:Name="priceTextBlock05" Grid.Column="3" Grid.Row="7" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock x:Name="priceTextBlock06" Grid.Column="3" Grid.Row="8" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock x:Name="priceTextBlock07" Grid.Column="3" Grid.Row="9" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock x:Name="priceTextBlock08" Grid.Column="3" Grid.Row="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock x:Name="priceTextBlock09" Grid.Column="3" Grid.Row="11" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock x:Name="priceTextBlock10" Grid.Column="3" Grid.Row="12" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock x:Name="priceTextBlock11" Grid.Column="3" Grid.Row="13" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock x:Name="priceTextBlock12" Grid.Column="3" Grid.Row="14" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock x:Name="priceTextBlock13" Grid.Column="3" Grid.Row="15" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock x:Name="priceTextBlock14" Grid.Column="3" Grid.Row="16" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock x:Name="priceTextBlock15" Grid.Column="3" Grid.Row="17" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock x:Name="priceTextBlock16" Grid.Column="3" Grid.Row="18" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock x:Name="priceTextBlock17" Grid.Column="3" Grid.Row="19" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock x:Name="priceTextBlock18" Grid.Column="3" Grid.Row="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock x:Name="priceTextBlock19" Grid.Column="3" Grid.Row="21" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock x:Name="priceTextBlock20" Grid.Column="3" Grid.Row="22" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    </Grid>
+</Window>
